@@ -1,380 +1,233 @@
-Plan de Cours Complet - Machine Learning
-Module 1 : NumPy (3 semaines)
-Semaine 1 : Bases de NumPy
-Introduction et installation
+🎓 Plan de Cours Complet – Machine Learning
 
-Présentation de l'écosystème Python pour le ML
+🕒 Durée totale : 13 semaines
+🎯 Niveau : Débutant → Intermédiaire
+📘 Prérequis : Python basique, notions de maths niveau lycée
 
-Installation des bibliothèques (pip/conda)
+🧮 Module 1 – NumPy (3 semaines)
+📅 Semaine 1 – Bases de NumPy
+🔹 Introduction et installation
 
-Jupyter Notebook vs scripts Python
+Présentation de l’écosystème Python pour le ML
 
-ndarray vs listes Python
+Installation (pip / conda)
 
-Comparaison performance : opérations vectorielles
+Jupyter Notebook vs script Python
 
-Types de données et optimisation mémoire
+Différences entre ndarray et listes Python
 
-Avantages pour les calculs scientifiques
+Avantages et performance vectorielle
 
-Constructeurs de base
+🔹 Constructeurs de base
+np.array(), np.zeros(), np.ones(), np.arange(), np.linspace(), np.random.randn()
 
-np.array(), np.zeros(), np.ones()
 
-np.arange(), np.linspace()
+Notion de distribution normale
 
-np.random.randn() et distribution normale
+Manipulation de shape et reshape
 
-Manipulation shape/reshape
+📅 Semaine 2 – Indexing et Slicing
+🔹 Indexation
 
-Attribut shape et dimensionnalité
+Accès 1D / 2D / 3D
 
-Méthode reshape() et règles de transformation
+Indexation négative
 
-Concepts de lignes, colonnes et axes
+Indexation multiple avec listes
 
-Semaine 2 : Indexing et Slicing
-Indexing basique et avancé
+Masques booléens et filtrage conditionnel
 
-Accès aux éléments (1D, 2D, 3D)
+🔹 Fancy Indexing
 
-Indexation négative et bornes
+Sélection avancée avec tableaux d’indices
 
-Indexing multiple avec listes
+Cas pratiques : feature engineering
 
-Masques booléens
+Exercices : extraction de sous-ensembles complexes
 
-Création de conditions sur les tableaux
+📅 Semaine 3 – Opérations avancées
+🔹 Broadcasting
 
-Filtrage de données avec conditions multiples
-
-Applications en prétraitement
-
-Fancy indexing
-
-Sélection avancée avec tableaux d'indices
-
-Combinaison d'indexing et slicing
-
-Cas d'usage en feature engineering
-
-Exercices pratiques
-
-Manipulation de datasets synthétiques
-
-Extraction de sous-ensembles complexes
-
-Applications sur données réelles
-
-Semaine 3 : Opérations avancées
-Broadcasting
-
-Règles du broadcasting
-
-Opérations entre tableaux de tailles différentes
+Règles et cas d’usage
 
 Applications en algèbre linéaire
 
-Opérations statistiques
+🔹 Statistiques
 
-mean(), std(), var(), min(), max()
+Moyenne, écart-type, variance, min, max
 
-Opérations par axe (lignes/colonnes)
+Opérations par axe, percentiles, médianes
 
-Percentiles et médianes
+🔹 Algèbre linéaire
+np.dot(), @, np.transpose(), np.linalg.det(), np.linalg.inv()
 
-Algèbre linéaire
-
-Produit matriciel (np.dot(), @)
-
-Transposition, déterminant, inverse
 
 Valeurs propres et vecteurs propres
 
-Cas pratique complet
+Cas pratique : simulation d’un dataset ML
 
-Simulation de dataset ML complet
+🧾 Module 2 – Pandas (2 semaines)
+📅 Semaine 1 – Fondations
+🔹 Structures principales
 
-Prétraitement et feature engineering
+Series et DataFrame
 
-Préparation pour modèles ML
+Création depuis diverses sources
 
-Module 2 : Pandas (2 semaines)
-Semaine 1 : Fondations
-Series et DataFrames
+Index hiérarchiques
 
-Création à partir de diverses sources
+🔹 Manipulation
 
-Structure et propriétés fondamentales
+Sélection, tri, ajout/suppression de colonnes
 
-Index personnalisés et hiérarchiques
+Gestion des valeurs manquantes (détection, imputation, suppression)
 
-Manipulation de données tabulaires
+📅 Semaine 2 – Opérations avancées
+🔹 Agrégations et regroupements
 
-Sélection de colonnes et lignes
-
-Ajout/suppression de colonnes
-
-Tri et organisation des données
-
-Gestion des missing values
-
-Détection des valeurs manquantes
-
-Stratégies d'imputation
-
-Suppression sélective
-
-Semaine 2 : Opérations avancées
-Aggrégations et groupby
-
-Opérations de regroupement complexes
-
-Agrégations multiples et personnalisées
+groupby() et agrégations multiples
 
 Pivot tables et restructuration
 
-Fusion de datasets
+🔹 Fusion et concaténation
 
-Jointures SQL-like (merge, join)
-
-Concatenation verticale/horizontale
+merge(), join(), concaténation horizontale/verticale
 
 Gestion des clés et index
 
-Manipulation de time series
+🔹 Séries temporelles
 
-Dates et heures avec datetime
+Dates et heures (datetime)
 
-Resampling et rolling windows
+Resampling, rolling windows, analyses temporelles
 
-Analyses temporelles
+📊 Module 3 – Data Visualization (1 semaine)
+🔹 Introduction pratique
 
-Module 3 : Data Visualization (1 semaine)
-Introduction pratique
-matplotlib.pyplot (basics)
+matplotlib.pyplot : figures, axes, sous-graphiques
 
-Figures, axes et sous-graphiques
+Graphiques fondamentaux + personnalisation
 
-Types de graphiques fondamentaux
+🔹 Seaborn
 
-Personnalisation (couleurs, styles, labels)
+Visualisations statistiques
 
-Seaborn pour visualisations statistiques
+Intégration avec pandas.DataFrame
 
-Graphiques statistiques avancés
+Thèmes et palettes
 
-Intégration avec les DataFrames pandas
+🔹 Intégration Pandas
 
-Thèmes et styles prédéfinis
+Plotting direct depuis les DataFrames
 
-Intégration avec Pandas
+Création rapide de dashboards exploratoires
 
-Méthodes de plotting des DataFrames
+🤖 Module 4 – Scikit-learn : Apprentissage Supervisé (4 semaines)
+🔹 Régression
 
-Visualisation directe depuis les données
+Linear Regression — fondement mathématique
 
-Dashboard rapide pour exploration
+Decision Trees — interprétabilité, overfitting
 
-Module 4 : Scikit-learn - Apprentissage Supervisé (4 semaines)
-Régression
-1. Linear Regression (fondamental)
-Concepts des moindres carrés
+Random Forest — performance robuste
 
-Interprétation des coefficients
+Gradient Boosting (XGBoost, LightGBM) — SOTA, hyperparameter tuning
 
-Évaluation des performances
+🔹 Classification
 
-2. Decision Trees (explicable)
-Arbres de décision pour régression
+Logistic Regression — probabilités et métriques
 
-Importance des features
+SVM — kernels, frontières complexes
 
-Limites et sur-apprentissage
+Random Forest — vote majoritaire, robustesse
 
-3. Random Forest (performant)
-Principe du bagging et forêts aléatoires
+XGBoost — régularisation, early stopping
 
-Réduction de la variance
+🧩 Module 5 – Apprentissage Non Supervisé (2 semaines)
+🔹 Clustering
 
-Feature importance globale
+K-Means : algorithme, initialisation, segmentation
 
-4. Gradient Boosting (state-of-the-art)
-Boosting séquentiel
+PCA : réduction de dimension, variance expliquée
 
-XGBoost, LightGBM applications
+DBSCAN : détection de clusters denses, gestion du bruit
 
-Hyperparameter tuning avancé
+🔹 Validation et Visualisation
 
-Classification
-1. Logistic Regression (base)
-Régression logistique binaire et multiclasse
+Silhouette score, métriques de cohérence
 
-Probabilités et seuils de décision
+Visualisation 2D/3D des clusters
 
-Métriques de classification
+⚙️ Module 6 – Pipeline Complet (1 semaine)
+🔹 Workflow professionnel
 
-2. SVM (frontières complexes)
-Séparateurs à marge maximale
+Pipeline, ColumnTransformer
 
-Kernels pour non-linéarité
+Gestion des variables catégorielles / numériques
 
-Cas d'usage en haute dimension
+Reproductibilité et structuration du projet
 
-3. Random Forest (robuste)
-Adaptation pour la classification
+🔹 Feature Engineering
 
-Vote majoritaire et probabilités
+Création de features non linéaires
 
-Robustesse au bruit
+Sélection automatique de variables
 
-4. XGBoost (hautes performances)
-Optimisation gradient boosting
+🔹 Validation croisée
 
-Régularisation et early stopping
+KFold, StratifiedKFold
 
-Compétitions et applications réelles
+GridSearchCV, RandomizedSearchCV
 
-Module 5 : Apprentissage Non-Supervisé (2 semaines)
-Clustering
-K-Means Clustering
+🔹 Hyperparameter Tuning
 
-Algorithme et initialisation
-
-Choix du nombre de clusters
-
-Applications en segmentation
-
-PCA - Réduction de dimension
-
-Composantes principales
-
-Variance expliquée
-
-Visualisation en basse dimension
-
-DBSCAN - Clustering density-based
-
-Détection de clusters non-sphériques
-
-Gestion du bruit
-
-Paramétrisation avancée
-
-Validation des clusters
-
-Métriques de qualité (silhouette, etc.)
-
-Interprétation des résultats
-
-Visualisation des clusters
-
-Module 6 : Pipeline Complet (1 semaine)
-Workflow professionnel
-Preprocessing avec sklearn
-
-Pipelines et ColumnTransformers
-
-Gestion des types de variables
-
-Reproductibilité
-
-Feature engineering
-
-Création de features interactives
-
-Transformations non-linéaires
-
-Sélection automatique de features
-
-Validation croisée
-
-K-fold et stratified sampling
-
-GridSearch et RandomSearch
-
-Évaluation robuste des modèles
-
-Hyperparameter tuning
-
-Méthodologies systématiques
-
-Compromis biais-variance
+Méthodes systématiques
 
 Optimisation bayésienne
 
-Recommandations pour scikit-learn
-Priorisation des algorithmes
-Régression :
-Linear Regression → Fondamentaux mathématiques
+Compromis biais-variance
 
-Decision Trees → Interprétabilité
-
-Random Forest → Performance robuste
-
-Classification :
-Logistic Regression → Base probabiliste
-
-Random Forest → Robustesse générale
-
-SVM → Frontières complexes
-
-Clustering :
-K-Means → Standard industriel
-
-DBSCAN → Données réelles complexes
-
-Modules sklearn essentiels
-python
+🧠 Recommandations Scikit-learn
+🔸 Priorisation des algorithmes
+Type	Algorithmes	Points forts
+Régression	Linear Regression, Decision Trees, Random Forest	Interprétabilité & performance
+Classification	Logistic Regression, Random Forest, SVM	Robustesse & flexibilité
+Clustering	K-Means, DBSCAN	Données réelles & segmentation
+🔸 Modules essentiels
 # Structure du cours scikit-learn
-- `sklearn.model_selection` 
-  → train_test_split, cross_val_score, GridSearchCV
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
+from sklearn.metrics import accuracy_score, mean_squared_error
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingRegressor
+from sklearn.pipeline import Pipeline, ColumnTransformer
 
-- `sklearn.preprocessing`
-  → StandardScaler, LabelEncoder, OneHotEncoder
+📈 Progression pédagogique
+Semaine	Thème principal	Objectif
+1–2	Concepts fondamentaux	NumPy & Pandas
+3–4	Visualisation & Linear Models	Scikit-learn bases
+5–6	Modèles avancés & non supervisé	Tree-based, clustering
+7	Intégration complète	Projet final
+🧩 Évaluation & Projets
+🔹 Évaluations formatives
 
-- `sklearn.metrics`
-  → accuracy_score, precision_recall_fscore_support, mean_squared_error
+Quiz hebdomadaires
 
-- `sklearn.ensemble`
-  → RandomForestClassifier, GradientBoostingRegressor
-
-- `sklearn.pipeline`
-  → Pipeline, ColumnTransformer, make_pipeline
-Progression pédagogique recommandée
-Semaines 1-2 : Concepts fondamentaux + Linear Models
-
-Semaines 3-4 : Tree-based models + Optimisation
-
-Semaines 5-6 : Non-supervisé + Cas pratiques
-
-Semaine 7 : Intégration et projets
-
-Évaluation et Projets
-Évaluations formatives
-Quiz hebdomadaires sur les concepts
-
-Exercices de coding progressifs
+Exercices de code progressifs
 
 Mini-projets par module
 
-Projet final
-Dataset réel de compétition Kaggle
+🔹 Projet final
 
-Pipeline complet de A à Z
+Dataset réel (ex. Kaggle)
 
-Présentation des résultats et insights
+Pipeline ML complet : de la préparation à la présentation
 
-Compétences visées
-Maîtrise de l'écosystème Python ML
+Analyse, optimisation, insights et rapport
 
-Capacité à résoudre des problèmes business
+🎯 Compétences visées
 
-Compétences en feature engineering
-
-Évaluation rigoureuse des modèles
-
-Durée totale estimée : 13 semaines
-Niveau : Débutant à Intermédiaire
-Prérequis : Python basique, mathématiques lycée
-
+✅ Maîtriser l’écosystème Python du Machine Learning
+✅ Construire un pipeline complet d’apprentissage automatique
+✅ Comprendre et comparer les modèles supervisés / non supervisés
+✅ Effectuer du feature engineering efficace
+✅ Évaluer et améliorer la performance des modèles
